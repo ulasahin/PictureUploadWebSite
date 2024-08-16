@@ -1,0 +1,58 @@
+.custom-button {
+    background-color: #c5a063;
+    border: 2px solid #8d4909; 
+    color: white; 
+    padding: 13px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    font-family:fantasy;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    left: 10em;
+    top: 10em;
+  }
+  
+  .custom-button:hover {
+    background-color: #b29058; 
+  }
+
+  .custom-choice-file {
+    background-color: #c5a063; 
+    border: 2px solid #8d4909; 
+    color: white; 
+    padding: 13px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    font-family:fantasy;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    left: 23em;
+    top: 7em;
+  }
+  @media (max-width: 480px) {
+    .custom-button {
+        position: relative;
+        left: 12em; 
+        transform: translateX(-50%); 
+        top: 20em; 
+        font-size: 16px;
+      }
+
+    .custom-choice-file {
+        position: relative;
+        left: 11.6em; 
+        transform: translateX(-50%);
+        top: 20em; 
+        font-size: 1em;
+    }
+}
+
+
